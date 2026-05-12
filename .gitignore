@@ -1,0 +1,23 @@
+# Secrets / connection strings — never commit
+.env
+.env.*
+!.env.example
+
+# Bootstrap log (written by postgres/bootstrap.sh)
+whacky-doodle-bootstrap.log
+
+# macOS
+.DS_Store
+
+# Editor caches
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python (in case generators are added later)
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
